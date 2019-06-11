@@ -1,5 +1,6 @@
 body{
-    background: #C5C5C5 url(../img/alum.png);
+    background: #C5C5C5 url(../img/wall-paper1.png) no-repeat;
+    background-size: cover;
 }
 main{
     text-align: center;
@@ -10,7 +11,7 @@ main{
 }
 main #main{
     display: inline-block;
-    background: rgba(225, 225, 225, 0.8);
+    background: rgba(225, 225, 225, 0.6);
     border-radius: 10px;
 }
 #main div{
