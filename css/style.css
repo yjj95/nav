@@ -12,42 +12,42 @@ main{
 main #main{
     display: inline-block;
     background: rgba(225, 225, 225, 0.6);
-    border-radius: 10px;
+    border-radius: 0.07rem;
 }
 #main div{
-    margin: 20px;
+    margin: 0.14rem;
 }
 kbd.tab{
-    width:96px ;
+    width:0.7rem ;
     text-transform: lowercase;
 }
 kbd.caps-lock{
-    width:114px ;
+    width:0.83rem ;
     text-transform: lowercase;
 }
 kbd.enter{
-    width:112px ;
+    width:0.81rem ;
     text-transform: lowercase;
 }
 kbd.shift{
-    width:154px ;
+    width:1.1rem ;
     text-transform: lowercase;
 }
 kbd{
-    width: 47px;
-    height: 69px;
-    border-radius: 8px;
-    padding: 0 12px;
-    line-height: 69px;
+    width: 0.34rem;
+    height: 0.51rem;
+    border-radius: 0.06rem;
+    padding: 0 0.09rem;
+    line-height: 0.51rem;
     float: left;
     position: relative;
-    margin: 0 12px 12px 0;
+    margin: 0 0.09rem 0.09rem 0;
     background-color: #000;
     color: #fff;
     text-align: left;
     text-transform: uppercase;
     font-family: keyboard, "Arial Rounded", Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 0.18rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
@@ -56,8 +56,8 @@ kbd:active{
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
 }
 kbd img{
-    width: 16px;
-    height: 16px;
+    width: 0.12rem;
+    height: 0.12rem;
     position: absolute;
     left: 10px;
     bottom: 3px;

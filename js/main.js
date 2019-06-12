@@ -13,12 +13,42 @@ generateKeyboard(arr,hash)
  //下面是工具函数
  function init(){
     var arr={
-            '0': {0:'tab',1:'q',2:'w',3:'e',4:'r',5:'t',6:'y',7:'u',8:'i',9:'o',10:'p',11:'{',12:'}',13:'|',length:14},
-             '1': {0:'caps lock',1:'a',2:'s',3:'d',4:'f',5:'g',6:'h',7:'j',8:'k',9:'l',10:':',11:'"',12:'enter',length:13},
-             '2': {0:'shift',1:'z',2:'x',3:'c',4:'v',5:'b',6:'n',7:'m',8:'<',9:'>',10:'?',11:'shift',length:12},
-             'length': 3
-         };
-    var hash = {'q': 'qq.com', 'w': 'weibo.com', 'e': 'ele.me', 'r': 'renren.com', 't': 'tianya.com', 'y': 'youtube.com', 'u': 'uc.com' , 'i': 'iqiyi.com', 'o': 'opera.com', 'p': undefined, 'a': 'acfun.tv', 's': 'sohu.com', 'z': 'zhihu.com', 'm': 'www.mcdonalds.com.cn'
+            '0': {
+                0:'tab',
+                1:'q',
+                2:'w',
+                3:'e',
+                4:'r',
+                5:'t',
+                6:'y',
+                7:'u',
+                8:'i',
+                9:'o',
+                10:'p',
+                11:'{',
+                12:'}',
+                13:'|',
+                length:14
+            },
+            '1': {0:'caps lock',1:'a',2:'s',3:'d',4:'f',5:'g',6:'h',7:'j',8:'k',9:'l',10:':',11:'"',12:'enter',length:13},
+            '2': {0:'shift',1:'z',2:'x',3:'c',4:'v',5:'b',6:'n',7:'m',8:'<',9:'>',10:'?',11:'shift',length:12},
+            'length': 3
+        };
+    var hash = {
+        'q': 'qq.com', 
+        'w': 'weibo.com', 
+        'e': 'ele.me', 
+        'r': 'renren.com', 
+        't': 'tianya.com', 
+        'y': 'youtube.com', 
+        'u': 'uc.com' , 
+        'i': 'iqiyi.com', 
+        'o': 'opera.com', 
+        'p': undefined, 
+        'a': 'acfun.tv', 
+        's': 'sohu.com', 
+        'z': 'zhihu.com', 
+        'm': 'www.mcdonalds.com.cn'
      };
      //取出新hash覆盖hash
      hashlocalStorage=getFormLocalstorage("xh")
